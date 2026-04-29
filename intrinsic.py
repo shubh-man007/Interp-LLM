@@ -4,9 +4,9 @@ import pandas as pd
 import torch
 import numpy as np
 import matplotlib.pyplot as plt
-from estimators.mle import MLE
-from estimators.twonn import TwoNN
-from estimators.gride import Gride
+from Estimators.MLE import MLE
+from Estimators.twoNN import TwoNN
+from Estimators.GRIDE import Gride
 from tqdm import tqdm
 import argparse
 from utils import getSaveDirectories
